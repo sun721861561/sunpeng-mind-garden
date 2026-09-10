@@ -1,0 +1,7 @@
+‘’‘
+SELECT a.id, a.balance + 10 AS adjusted
+FROM public.parser_demo AS a
+WHERE a.id = 42 AND a.status = 'active'
+ORDER BY adjusted DESC
+LIMIT 5;
+’‘’
